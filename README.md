@@ -56,62 +56,230 @@
 <p><strong>۱</strong></p>
 </td>
 <td width="198">
-<p>MessageService</p>
+<p>OrderService</p>
 </td>
 <td width="141">
-<p>افزودن تابع ارسال پیام تلگرامی</p>
+<p>افزودن تابع پرداخت تلفنی</p>
 </td>
 <td width="292">
-<p>افزودن یک تابع void با عنوان sendTelegramMessage</p>
+<p>افزودن یک تابع void با عنوان phoneOrderRegister</p>
 </td>
 </tr>
 
 <tr>
 <td width="64">
-<p><strong>&nbsp;</strong></p>
+<p><strong>۲</strong></p>
 </td>
 <td width="198">
-<p>&nbsp;</p>
+<p>OrderService</p>
 </td>
 <td width="141">
-<p>&nbsp;</p>
+<p>افزودن تابع ثبت سفارش تلفنی</p>
 </td>
 <td width="292">
-<p>&nbsp;</p>
+<p>افزودن یک تابع void با عنوان phoneOrderPayment</p>
 </td>
 </tr>
 <tr>
 <td width="64">
-<p><strong>&nbsp;</strong></p>
+<p><strong>۳</strong></p>
 </td>
 <td width="198">
-<p>&nbsp;</p>
+<p>OnlineOrderService</p>
 </td>
 <td width="141">
-<p>&nbsp;</p>
+<p>override کردن تابع phoneOrderRegister</p>
 </td>
 <td width="292">
-<p>&nbsp;</p>
+<p>پیاده سازی تابع void با عنوان phoneOrderRegister با بدنه خالی</p>
 </td>
 </tr>
 <tr>
 <td width="64">
-<p><strong>&nbsp;</strong></p>
+<p><strong>۴</strong></p>
 </td>
 <td width="198">
-<p>&nbsp;</p>
+<p>OnlineOrderService</p>
 </td>
 <td width="141">
-<p>&nbsp;</p>
+<p>override کردن تابع phoneOrderPayment</p>
 </td>
 <td width="292">
-<p>&nbsp;</p>
+<p>پیاده سازی تابع void با عنوان phoneOrderPayment با بدنه خالی</p>
+</td>
+</tr>
+<tr>
+<td width="64">
+<p><strong>۵</strong></p>
+</td>
+<td width="198">
+<p>OnSiteOrderService</p>
+</td>
+<td width="141">
+<p>override کردن تابع phoneOrderRegister</p>
+</td>
+<td width="292">
+<p>پیاده سازی تابع void با عنوان phoneOrderRegister با بدنه خالی</p>
+</td>
+</tr>
+<tr>
+<td width="64">
+<p><strong>۶</strong></p>
+</td>
+<td width="198">
+<p>OnsiteOrderService</p>
+</td>
+<td width="141">
+<p>override کردن تابع phoneOrderPayment</p>
+</td>
+<td width="292">
+<p>پیاده سازی تابع void با عنوان phoneOrderPayment با بدنه خالی</p>
+</td>
+</tr>
+<tr>
+<td width="64">
+<p><strong>۷</strong></p>
+</td>
+<td width="198">
+<p>PhoneOrderService</p>
+</td>
+<td width="141">
+<p>افزودن کلاس PhoneOrderService به PaymentServices</p>
+</td>
+<td width="292">
+<p>افزودن کلاس با عنوان PhoneOrderService برای سفارش‌های تلفنی</p>
+</td>
+</tr>
+<tr>
+<td width="64">
+<p><strong>۸</strong></p>
+</td>
+<td width="198">
+<p>PhoneOrderService</p>
+</td>
+<td width="141">
+<p>override کردن تابع onlineOrderRegister</p>
+</td>
+<td width="292">
+<p>پیاده سازی تابع void با عنوان onlineOrderRegister با بدنه خالی</p>
+</td>
+</tr>
+<tr>
+<td width="64">
+<p><strong>۹</strong></p>
+</td>
+<td width="198">
+<p>PhoneOrderService</p>
+</td>
+<td width="141">
+<p>override کردن تابع onSiteOrderRegister</p>
+</td>
+<td width="292">
+<p>پیاده سازی تابع void با عنوان onSiteOrderRegister با بدنه خالی</p>
+</td>
+</tr>
+<tr>
+<td width="64">
+<p><strong>۱۰</strong></p>
+</td>
+<td width="198">
+<p>PhoneOrderService</p>
+</td>
+<td width="141">
+<p>override کردن تابع onlineOrderPayment</p>
+</td>
+<td width="292">
+<p>پیاده سازی تابع void با عنوان onlineOrderPayment با بدنه خالی</p>
+</td>
+</tr>
+<tr>
+<td width="64">
+<p><strong>۱۱</strong></p>
+</td>
+<td width="198">
+<p>PhoneOrderService</p>
+</td>
+<td width="141">
+<p>override کردن تابع onSiteOrderPayment</p>
+</td>
+<td width="292">
+<p>پیاده سازی تابع void با عنوان onSiteOrderPayment با بدنه خالی</p>
+</td>
+</tr>
+<tr>
+<td width="64">
+<p><strong>۱۲</strong></p>
+</td>
+<td width="198">
+<p>PhoneOrderService</p>
+</td>
+<td width="141">
+<p>override کردن تابع phoneOrderRegister</p>
+</td>
+<td width="292">
+<p>پیاده سازی تابع void با عنوان phoneOrderRegister برای ثبت سفارش‌های تلفنی</p>
+</td>
+</tr>
+<tr>
+<td width="64">
+<p><strong>۱۳</strong></p>
+</td>
+<td width="198">
+<p>PhoneOrderService</p>
+</td>
+<td width="141">
+<p>override کردن تابع phoneOrderPayment</p>
+</td>
+<td width="292">
+<p>پیاده سازی تابع void با عنوان phoneOrderPayment برای پرداخت سفارش‌های تلفنی</p>
+</td>
+</tr>
+<tr>
+<td width="64">
+<p><strong>۱۴</strong></p>
+</td>
+<td width="198">
+<p>Main</p>
+</td>
+<td width="141">
+<p>افزودن روش سفارش تلفنی به راهنمای کاربر</p>
+</td>
+<td width="292">
+<p>افزودن سفارش تلفنی به مقدار پرینت شده برای راهنمایی کاربر در جهت انتخاب روش سفارش</p>
+</td>
+</tr>
+<tr>
+<td width="64">
+<p><strong>۱۵</strong></p>
+</td>
+<td width="198">
+<p>Main</p>
+</td>
+<td width="141">
+<p>افزودن سفارش تلفنی به روش‌های سفارش</p>
+</td>
+<td width="292">
+<p>پیاده سازی سفارش تلفنی به عنوان گزینه سوم برای انتخاب روش سفارش</p>
+</td>
+</tr>
+<tr>
+<td width="64">
+<p><strong>۱۶</strong></p>
+</td>
+<td width="198">
+<p>Main</p>
+</td>
+<td width="141">
+<p>افزودن پرداخت تلفنی به روش‌های پرداخت</p>
+</td>
+<td width="292">
+<p>پیاده سازی پرداخت تلفنی برای انجام پرداخت در مواقع انتخاب سفارش تلفنی</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-مجموع تعداد تغییرات: ..............
+مجموع تعداد تغییرات: ۱۶
 
 ### گام ۲: تحلیل و وارسی برنامه از منظر تحقق و یا عدم تحقق اصول SOLID
 در خصوص این برنامه‌ای که نوشته شده بود و شما یک قابلیت به آن اضافه کردید، بر اساس اصول SOLID موارد نقض و یا محقق شدن هر کدام از آن اصول را بیان کنید. در بیان موارد تحقق و نقض، علت تحقق و یا نقض را نیز به صورت کامل توضیح دهید:
