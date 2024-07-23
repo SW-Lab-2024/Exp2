@@ -1,6 +1,6 @@
 package PaymentServices;
 
-public class PhoneOrderService implements OrderService{
+public class PhoneOrderService implements OrderService {
 
     @Override
     public void onSiteOrderRegister(String customerName) {
